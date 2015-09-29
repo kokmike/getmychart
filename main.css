@@ -1,0 +1,168 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page-header.navbar{
+	background-color: #3FD5C0!important;
+}
+
+.page-content-wrapper {
+	margin-left:250px;
+	margin-right:50px;
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin-bottom: -33px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.save {
+	float:right!important;
+}
+
+.save>a:hover, .save>a:focus{
+	color: #428bca!important;
+	background-color: white!important;
+}
+
+.libelle {
+	padding-right:10px;
+}
+
+.chart-show{
+	margin: 0 auto;
+}
+
+pie-chart > div > div:nth-child(1), 
+line-chart > div > div:nth-child(1), 
+column-chart > div > div:nth-child(1), 
+bar-chart > div > div:nth-child(1)
+area-chart > div > div:nth-child(1){
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.menuChart > li{
+	display:inline;
+}
+
+ table > tbody > tr > td > a > img{
+	max-width:200px;
+}
+
+.menuHome {
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	max-height:200;
+}
+
+.menuElement {
+	height:200
+}
+
+h5 a img{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h5 a img.desaturate{
+	width:200;
+	
+}
+
+
+h5 a img.desaturate:hover{
+	-webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1.2);
+}
+
+.menuTitle{
+   font-family: fantasy, cursive, Serif;
+   font-size:30px;
+   text-align:center;
+   margin-top:50px;
+   color: #3FD5C0;
+}
+
+.carouselchart {
+	margin-top:100px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1200px;
+}
+
+@media (min-width: 992px) {
+.page-footer {
+  clear: left;
+  padding: 8px 20px 5px 20px;
+  font-size: 12px;
+  height: 33px;
+  transition: margin 0.3s;
+  background-color: #2e353d;
+  z-index:10001;
+}
+
+.page-footer-inner{
+	color:white;
+	float:left;
+	display:inline-block;
+	padding-left:180px;
+}
+
+.page-content{
+	min-height:856px;
+}
+
+.col-input-1{
+	width:150px!important;
+}
+
+.col-input-2{
+	width:120px!important;
+}
+
+.col-input-3{
+	width:95px!important;
+}
+
+.information {
+	font-size:15px;
+	background-color:#eee;
+	color:#444;
+	margin-top: 50px;
+	padding: 30px 30px 30px 30px;
+	border: 1px solid #e1e8ed;
+}
+
+.zone_control{
+	margin-bottom:50px;
+}
+.zone_control .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+.zone_control .tab-content {
+  background-color: #eee;
+  padding : 20px 20px;
+  border-radius: 4px 4px 4px 4px ;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #428bca;
+  background-color: #eee;
+}
+
+input.color{
+	width:135px;
+}
+
+.read_only{
+	background-color: #D3D3D3;
+}
+
